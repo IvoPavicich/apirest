@@ -20,4 +20,8 @@ public class Person {
     private String lastname;
     @Column
     private String email;
+    @Column
+    private String user;
+    @Column
+    private String password;
 }
